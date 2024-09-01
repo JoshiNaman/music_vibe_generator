@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#artist-input {
+    display: flex;
+    gap: 10px;
+}
+
+#artist-name {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#generate-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.image-container img {
+    width: 48%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.tshirt {
+    width: 300px;
+    height: 400px;
+    background-color: #ddd;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 20px;
+}
+
+.print {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.print-left {
+    left: 50px;
+}
+
+.print-right {
+    right: 50px;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar-left h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.coffee-btn {
+    background-color: #ffdd57;
+    color: #333;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.coffee-btn:hover {
+    background-color: #ffc107;
+}
+
+/* Contact Us Section */
+.contact-us {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact-us h2 {
+    margin-bottom: 1rem;
+}
+
+.contact-us form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us form input {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 80%;
+    max-width: 300px;
+}
+
+.contact-us form button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ffdd57;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-us form button:hover {
+    background-color: #ffc107;
+}
